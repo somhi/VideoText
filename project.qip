@@ -1,0 +1,10 @@
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) rtl/Keyb_Driver.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) rtl/OUTDISPLAY.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) rtl/Text_Editor.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) rtl/Video_Driver.v]
+
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) mist/mist-modules/user_io.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) mist/mist-modules/osd.v]
+
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) mist/VideoText.v]
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) mist/VideoText.sdc]

@@ -1,4 +1,9 @@
-# VideoText
+# VideoText - Mist & DeMiSTified to Deca, Sidi, ...
+
+19/12/21 MiST core adapted from direct core VideoText by Antonio Sánchez (@TheSonders) https://github.com/TheSonders/VideoText
+
+See Mist, Sidi, Deca board folders.
+
 ## Video driver in Verilog
 
 It's composed of 3 main modules, furthermore a top level:
